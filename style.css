@@ -1,0 +1,169 @@
+
+
+.logo{
+    max-width: 80px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.nav-color{
+    background-color: #e0e0e0;
+    color: black;
+}
+.costom-list ul li{
+    padding: 10px 15px;
+}
+.costom-list ul li a{
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+.costom-btn{
+        /* margin-right: 100px; */
+        background-color: #ffffff;
+        color: blue;
+        padding: 11px 30px;
+        border-radius: 32px;
+        border: 1px solid #ffffff;
+        position: relative;
+        left:50px
+}
+.costom-list{
+    margin-left: 270px;
+}
+.praymari-menu li a:hover{
+    color: blue;
+}
+ 
+.praymari-menu li a{
+    position: relative;
+}
+.praymari-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 200%;
+    width: 0%;
+    height: 15%;
+    background-color: blue;
+     color: blue;
+    transition: .5s;
+}
+.praymari-menu li a:hover::after{
+    width: 118%;
+    color: blue;
+}
+.hover-active{
+    position: relative;
+}
+.praymari-menu li a.hover-active::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 200%;
+    width:63%;
+    height: 15%;
+    background-color: blue;
+    display: block;
+    transition: .5s;
+    color: blue;
+
+}
+
+/* DropDrown css */
+
+
+.praymari-menu li{
+    position: relative;
+}
+.praymari-menu ul{
+    position: absolute;
+    top: 130%;
+    left:0;
+    width:  0px;
+    background: #ffffff;
+    padding: 13px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+    
+
+}
+.praymari-menu ul li{
+    background-color: blue;
+    list-style: none;$
+    display: block;
+}
+.praymari-menu ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+.praymari-menu li{
+    position: relative;
+}
+.praymari-menu li:hover ul{
+    position: absolute;
+    top: 130%;
+    left:0;
+    width: 220px;
+    background: #ffffff;
+    padding: 13px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    visibility: visible;
+     
+}
+.praymari-menu ul li a::after{
+    display: none;
+}
+
+
+/*----- slider css----- */
+
+
+.text{}
+.text h1{
+    font-weight: 500;
+    font-size: 48px;
+}
+.text p{}
+.btn-primary{
+    padding: 11px 30px;
+        border-radius: 32px;
+}
+.img-hidden{
+    overflow: hidden;
+}
+.slider-img {
+    height: 700px;
+    height: 700px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: -152px;
+    left: 58px;
+}
+.slider-img img{
+    height: 100%;
+    width: 100%;
+     
+}
+.icon {
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    left:  1222px;
+    top: -318px;
+}
+.aa {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 9px;
+    bottom: -11px;
+}
